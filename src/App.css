@@ -76,3 +76,18 @@ button {
   background-color: #1a1a1a;
   border: 1px solid transparent;
 }
+
+.burger-builder {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.clear-button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: crimson;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
