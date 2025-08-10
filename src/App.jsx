@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
-import BurgerStack from './components/BurgerStack/BurgerStack';
 import IngredientList from './components/IngredientList/IngredientList';
+import BurgerStack from './components/BurgerStack/BurgerStack';
 
 const App = () => {
   const availableIngredients = [
@@ -56,4 +56,5 @@ const App = () => {
 };
 
 export default App;
+
 
